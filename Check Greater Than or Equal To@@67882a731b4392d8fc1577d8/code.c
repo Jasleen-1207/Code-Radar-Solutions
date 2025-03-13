@@ -3,7 +3,7 @@
 int main(){
     float a,b;
     scanf("%f %f",&a,&b);
-    if (x>=y)
+    if (x>y || x=y)
     printf("True");
     else
     printf("False");
