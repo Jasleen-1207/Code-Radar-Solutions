@@ -3,9 +3,9 @@
 int main(){
     float x,y;
     scanf("%f %f",&x,&y);
-    if (x>y):
+    if (x>y)
     printf("True");
-    else:
+    else
     printf("False");
     return 0;
 }
