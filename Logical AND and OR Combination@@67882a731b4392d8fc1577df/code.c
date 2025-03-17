@@ -1,12 +1,13 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    float a,b;
-    scanf("%f %f",&a,&b);
-    if(a>0 && b<0)
+    int a, b, c;
+    scanf("%d %d",&a,&b);
+    c = a*b;
+    if(c<0)
     printf("True");
-    if (a=0 && b=0)
-    printf("True");
-    else
+    else if (c>0)
     printf("False");
+    else if(a&&b==0)
+    printf("True");
 }
