@@ -3,8 +3,8 @@
 int main(){
     long int a,msb;
     scanf("%d",&a);
-    msb=1 << 31
-    if (a & msb)
+    
+    if (a & 0*80000000)
     printf("Set");
     else
     printf("Not Set");
