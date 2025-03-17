@@ -2,9 +2,9 @@
 #include <stdio.h>
 int main(){
     long int a,msb;
-    scanf("%d",&a);
+    scanf("%ld",&a);
     
-    if (a & 0*80000000)
+    if (a & 0*800000000)
     printf("Set");
     else
     printf("Not Set");
