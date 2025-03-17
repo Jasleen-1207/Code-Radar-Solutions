@@ -1,9 +1,10 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int a;
+    long int a,msb;
     scanf("%d",&a);
-    if (a|1)
+    msb=1<<31
+    if (a & msb)
     printf("Set");
     else
     printf("Not Set");
