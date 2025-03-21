@@ -5,7 +5,7 @@ int main(){
     scanf("%c",&i);
     if (i>=65 && i<=90)
     printf("Uppercase");
-    if (i>=97 && i<=122)
+    else if (i>=97 && i<=122)
     printf("Lowercase");
     else
     printf("Not an alphabet");
